@@ -15,10 +15,36 @@
 #import <Foundation/Foundation.h>
 @interface Account : NSObject
 
+    @property (nonatomic) NSString *name;
+    @property (nonatomic) NSString *gender;
+    @property (nonatomic) NSString *language;
+    @property (nonatomic) NSInteger age;
 
-@property (nonatomic) NSString   *name;
-
-+ (NSString *)Profile:(NSString *)Name;
-
+    - (void)introduce;
 
 @end
+
+//
+//// 名前を取得する（変数の定義）
+//- (NSString *)name;
+//// 名前を設定する（メソッド定義）
+//- (void)setName:(NSString *)name;
+//// 性別を取得する
+//- (NSString *)gender;
+//// 性別を取得する
+//- (void)setGender:(NSString *)gender;
+////言語
+//- (NSString *)language;
+//// 言語を取得する
+//- (void)setLanguage:(NSString *)language;
+//
+//- (NSInteger)age;
+//// 年齢を設定する
+//- (void)setAge:(NSInteger)age;
+//
+//
+//
+//
+//
+//
+//@end
