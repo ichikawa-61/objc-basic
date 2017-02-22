@@ -15,6 +15,7 @@
 		380568871E5DE1C0007E05D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380568851E5DE1C0007E05D6 /* LaunchScreen.storyboard */; };
 		380568921E5DE1C0007E05D6 /* ScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380568911E5DE1C0007E05D6 /* ScreenTests.m */; };
 		3805689D1E5DE1C0007E05D6 /* ScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3805689C1E5DE1C0007E05D6 /* ScreenUITests.m */; };
+		380568AB1E5DEAC0007E05D6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 380568AA1E5DEAC0007E05D6 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		380568981E5DE1C0007E05D6 /* ScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3805689C1E5DE1C0007E05D6 /* ScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenUITests.m; sourceTree = "<group>"; };
 		3805689E1E5DE1C0007E05D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380568AA1E5DEAC0007E05D6 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		380568AC1E5DEE9D007E05D6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		380568AD1E5DEE9D007E05D6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		3805686B1E5DE1C0007E05D6 = {
 			isa = PBXGroup;
 			children = (
+				380568AA1E5DEAC0007E05D6 /* Localizable.strings */,
 				380568761E5DE1C0007E05D6 /* Screen */,
 				380568901E5DE1C0007E05D6 /* ScreenTests */,
 				3805689B1E5DE1C0007E05D6 /* ScreenUITests */,
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				380568871E5DE1C0007E05D6 /* LaunchScreen.storyboard in Resources */,
+				380568AB1E5DEAC0007E05D6 /* Localizable.strings in Resources */,
 				380568841E5DE1C0007E05D6 /* Assets.xcassets in Resources */,
 				380568821E5DE1C0007E05D6 /* Main.storyboard in Resources */,
 			);
@@ -315,6 +321,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				380568811E5DE1C0007E05D6 /* Base */,
+				380568AC1E5DEE9D007E05D6 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +330,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				380568861E5DE1C0007E05D6 /* Base */,
+				380568AD1E5DEE9D007E05D6 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -334,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -382,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -507,6 +517,7 @@
 				380568A31E5DE1C0007E05D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		380568A41E5DE1C0007E05D6 /* Build configuration list for PBXNativeTarget "ScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				380568A61E5DE1C0007E05D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		380568A71E5DE1C0007E05D6 /* Build configuration list for PBXNativeTarget "ScreenUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				380568A91E5DE1C0007E05D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
