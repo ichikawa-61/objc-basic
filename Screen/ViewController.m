@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()
 
 @end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -30,13 +30,29 @@
    label.center = self.view.center;
     [self.view addSubview:label];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    // UIImage 生成したインスタンスに画像を入れる
+    UIImage *img = [UIImage imageNamed:@"Temple"];
+    // UIImageView 初期化
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:img];
+    
+    //UIImageViewのサイズの変更
+    CGRect rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    imageView.frame = rect;
+    
+    imageView.layer.masksToBounds = YES;
+    imageView.layer.cornerRadius  = 4.0f;
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
+    [self.view addSubview:imageView];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 @end
