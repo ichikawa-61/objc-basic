@@ -34,7 +34,7 @@
     
     
     // UIImage 生成したインスタンスに画像を入れる
-    UIImage *img = [UIImage imageNamed:@"Temple"];
+    UIImage *img = [UIImage imageNamed:@"AppIcon"];
     // UIImageView 初期化
     UIImageView *imageView = [[UIImageView alloc] initWithImage:img];
     
