@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UITableView1.xcscheme</key>
+		<key>UILabel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>38FA9F1D1E6D4EA00042B55A</key>
+		<key>380541F71E6DADFE00F7DC17</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38FA9F361E6D4EA00042B55A</key>
+		<key>380542101E6DADFE00F7DC17</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38FA9F411E6D4EA00042B55A</key>
+		<key>3805421B1E6DADFE00F7DC17</key>
 		<dict>
 			<key>primary</key>
 			<true/>

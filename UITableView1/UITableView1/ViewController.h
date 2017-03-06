@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UIImageView *thumbnailImageView;
 
+@property (weak, nonatomic) IBOutlet UILabel *Contents;
 
 @end
 

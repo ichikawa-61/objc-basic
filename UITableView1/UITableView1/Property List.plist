@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tableData</key>
+	<array>
+		<string>吾輩は猫である。名前はまだ無い。どこで生れたか頓（とん）と見當がつかぬ。何でも薄暗いじめじめした所でニヤーニヤー泣いて居た事丈は記憶して居る。
+　どこで生れたか頓（とん）と見當がつかぬ。何でも薄暗いじめじめした所でニヤーニヤー泣いて居た事丈は記憶して居る。吾輩はこゝで始めて人間といふものを見た。</string>
+		<string>green</string>
+		<string>red</string>
+	</array>
+	<key>thumbnails</key>
+	<array>
+		<string>arrow361.jpg</string>
+		<string>819-71.jpg</string>
+		<string>819-70.jpg</string>
+	</array>
+</dict>
+</plist>

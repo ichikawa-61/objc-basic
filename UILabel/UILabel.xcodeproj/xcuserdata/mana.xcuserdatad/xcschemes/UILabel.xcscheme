@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38FA9F1D1E6D4EA00042B55A"
-               BuildableName = "UITableView1.app"
-               BlueprintName = "UITableView1"
-               ReferencedContainer = "container:UITableView1.xcodeproj">
+               BlueprintIdentifier = "380541F71E6DADFE00F7DC17"
+               BuildableName = "UILabel.app"
+               BlueprintName = "UILabel"
+               ReferencedContainer = "container:UILabel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38FA9F361E6D4EA00042B55A"
-               BuildableName = "UITableView1Tests.xctest"
-               BlueprintName = "UITableView1Tests"
-               ReferencedContainer = "container:UITableView1.xcodeproj">
+               BlueprintIdentifier = "380542101E6DADFE00F7DC17"
+               BuildableName = "UILabelTests.xctest"
+               BlueprintName = "UILabelTests"
+               ReferencedContainer = "container:UILabel.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38FA9F411E6D4EA00042B55A"
-               BuildableName = "UITableView1UITests.xctest"
-               BlueprintName = "UITableView1UITests"
-               ReferencedContainer = "container:UITableView1.xcodeproj">
+               BlueprintIdentifier = "3805421B1E6DADFE00F7DC17"
+               BuildableName = "UILabelUITests.xctest"
+               BlueprintName = "UILabelUITests"
+               ReferencedContainer = "container:UILabel.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38FA9F1D1E6D4EA00042B55A"
-            BuildableName = "UITableView1.app"
-            BlueprintName = "UITableView1"
-            ReferencedContainer = "container:UITableView1.xcodeproj">
+            BlueprintIdentifier = "380541F71E6DADFE00F7DC17"
+            BuildableName = "UILabel.app"
+            BlueprintName = "UILabel"
+            ReferencedContainer = "container:UILabel.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38FA9F1D1E6D4EA00042B55A"
-            BuildableName = "UITableView1.app"
-            BlueprintName = "UITableView1"
-            ReferencedContainer = "container:UITableView1.xcodeproj">
+            BlueprintIdentifier = "380541F71E6DADFE00F7DC17"
+            BuildableName = "UILabel.app"
+            BlueprintName = "UILabel"
+            ReferencedContainer = "container:UILabel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38FA9F1D1E6D4EA00042B55A"
-            BuildableName = "UITableView1.app"
-            BlueprintName = "UITableView1"
-            ReferencedContainer = "container:UITableView1.xcodeproj">
+            BlueprintIdentifier = "380541F71E6DADFE00F7DC17"
+            BuildableName = "UILabel.app"
+            BlueprintName = "UILabel"
+            ReferencedContainer = "container:UILabel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
